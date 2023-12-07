@@ -1,12 +1,197 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title> Alan B.H. Nguyen </title>
-  </head>
-  <body>
-    <h1> Alan Bao-Huy Nguyen </h1>
+<head>
+  <title>Alan B.H. Nguyen</title>
+  <style>
 
-    <p> I am currently a MSc. student at the University of Waterloo </p>
-  </body>
+    csup {
+    vertical-align: text-top;
+    font-size: 55px;
+    }
+    csups {
+    vertical-align: text-top;
+    font-size: 14px;
+    }
+    body {
+      background-color: #000000;
+      color: #ffffff;
+      font-family: 'Arial Black', sans-serif;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+    }
+
+     h0 {
+      color: #000000;
+      text-align: left;
+      /*margin-top: 60px;
+      margin-bottom: 40px;
+      margin-left: 60px;
+      margin-right: 40px;*/
+    }
+
+    h1 {
+      font-size: 80px;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 60px;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #059B00;
+      margin-top: 40px;
+    }
+
+    p {
+      font-size: 20px;
+      margin: 20px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 60px auto;
+      padding: 0px;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: 50%;
+      padding: 20px;
+    }
+
+    .link {
+      color: #5BFF56;
+      text-decoration: underline;
+    }
+
+    .window {
+      background-color: #ffffff;
+      padding: 20px;
+      margin-bottom: 30px;
+      border: 10px solid #A7A7A7;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(0, 0, 0, 0.5);; /* Updated box shadow */
+      flex: 0 0 45%;
+      display: inline-block;
+    }
+
+
+    .window h2 {
+      font-size: 24px;
+      color: maroon;
+      margin-top: 0;
+    }
+
+    .window p {
+      margin-top: 10px;
+      color: #2e1a47;
+    }
+
+    .projects {
+      text-align: left;
+    }
+
+    .project {
+      margin-top: 30px;
+      padding-left: 30px;
+      border-left: 3px solid Maroon;
+    }
+
+    .project strong {
+      font-size: 22px;
+      color: #881088;
+    }
+
+    .project p {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    <img src="cmlogo.png" alt="Logo" style="vertical-align: middle; horizontal-align: left; width: 200px; height: 200px;">
+    Alan Bao-Huy Nguyen
+  </h1>
+  <div class="container">
+    <div class="column">
+      <div class="window">
+        <h2>About Me</h2>
+        <p>
+          Hi! I'm Alan Bao-Huy Nguyen, a MSc. student currently at the University of Waterloo. My research focuses on the Large Scale Structure of the Universe, Baryon Acoustic Oscillations, and Statistical Methods.
+        </p>
+      </div>
+      <div class="window">
+      <h2>CV</h2>
+        <div class="projects">
+          <div class="project">
+            <strong>Education</strong>
+            <p>
+          Masters of Science in Physics
+          <br><a href="https://mspace.lib.umanitoba.ca/handle/1993/37116" class="link">Read My Thesis!</a>
+          <br><br>Bachelor of Science Honours in Physics and Astronomy
+          <br>-Minors in Math & Econmics
+            </p>
+          </div>
+          <div class="project">
+            <strong>Strengths</strong>
+            <p>
+               Cosmology
+            </p>
+          </div>
+          <div class="project">
+          <strong>Programming:</strong><br>
+          <p>
+          Python
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="column">
+
+      <div class="window">
+        <h2>My Projects</h2>
+        <div class="projects">
+          <div class="project">
+            <strong>Writing of Physics and Philosophy</strong>
+            <p>
+              My writing on various topics in physcis and philosophy may be found <a href="https://thirdtriumvirate.wordpress.com/author/cmcraes/" class="link">here.</a>
+              <br><br>
+              I also am quite fond of <a href="https://umanitoba-my.sharepoint.com/:w:/g/personal/mcraec3_myumanitoba_ca/EeaU83jtKOpMuj6zSej0ukIBO8rMCt0Zv4YTWDGV4eocnQ?rtime=dQiwmFZh20g" class="link">this write up</a> of mine, regarding the nature of unit systems and their interrelationship with the structure of physical laws.
+            </p>
+          </div>
+          <div class="project">
+            <strong>Mathy Stuff</strong>
+            <p>
+              I'm currently building a prolog script which keeps track of the relationships between various Lie algebras and Lie groups.
+              <br><br>
+               <a href="https://github.com/mcraec3/QuantumComputing" class="link">Quantum Computing:</a> here you can find my personal quantum computing suite writtin in mathematica.
+            </p>
+          </div>
+          <div class="project">
+            <strong>Fun Stuff</strong>
+            <p>
+              <a href="https://github.com/mcraec3/WordConnector" class="link">WordConnector:</a> This program is a lot of fun to play with for anyone who likes word games. It finds the shortest path between two words based on the entered words rhymes, synonyms, etc.
+              <br><br>
+              <a href="https://github.com/mcraec3/SpotifyPairs" class="link">Spotify Pairings:</a> This repository is a selection of python scipts which automatically queue up songs I beleive shoud always be played together.
+            </p>
+          </div>
+        </div>
+      </div>
+            <div class="window">
+        <h2>Contact</h2>
+        <p>
+          My email is first.last at umanitoba.ca
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+<!--    To build 32-hex key simply remove underscores and replace the disallowed symbols
+        with hex substiutions, for example 'loots' = 10075
+        Allowed hex symbols are: 0123456789abcdef
+        Key: cole_oddball_coffee_decode_boob_based
+-->
 </html>
